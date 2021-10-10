@@ -1,6 +1,6 @@
 @font-face {
     font-family: Nitti Grotesk;
-    src:url("/src/fonts/nitti-cufonfonts/Nitti-Normal.ttf");
+    src:url("https://github.com/b8run/BPage/blob/main/src/fonts/nitti-cufonfonts/Nitti-Normal.ttf");
 }
 
 html,body{
