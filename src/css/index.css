@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Nitti Grotesk;
+    src:url("/src/fonts/nitti-cufonfonts/Nitti-Normal.ttf");
+}
+
+html,body{
+    height: 100%;
+}
+
+.sidebar{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    background-color: aliceblue;
+}
+.sidebar-position{
+    position: absolute;
+}
+
+.backdrop{
+    margin-top: 25%;
+    width: 100%;
+    
+}
+
+.parent{
+    position:absolute;
+    left: 40%;
+    width: 60%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: black;
+
+}
+
+h1{
+    font-family: "Nitti Grotesk";
+    font-style: normal;
+    font-weight: 200;
+    padding: 0;
+    margin: 20px;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: rgba(63, 62, 62, 0.93);
+    text-rendering: optimizeLegibility;
+}
+
